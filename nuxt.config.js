@@ -1,3 +1,4 @@
+require('dotenv').config
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -38,6 +39,8 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    //.ENV USE
+    '@nuxtjs/dotenv',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
